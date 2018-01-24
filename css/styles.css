@@ -1,0 +1,51 @@
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+link {
+    display: none;
+}
+
+.logo {
+  float: left;
+}
+
+.main-logo {
+  width: 110px;
+  height: 110px;
+}
+
+.break {
+  color: #7d97ad;
+  width: 100%;
+  height: 3px;
+  background-color: #7d97ad;
+}
+
+.title {
+  float: right;
+  text-align: right;
+  color: #2d3c49;
+  font-size: 30px;
+  line-height: 3px;
+  text-transform: uppercase;
+}
+
+.text {
+  text-align: justify;
+  color: #02b3e4;
+}
+
+.title-work {
+  color: #7d97ad;
+  font-size: 30px;
+}
+
+.works {
+  color: #2d3c49;
+}
+
+.project-macos-install {
+  height: 500px;
+  width: 500px;
+}

@@ -1,24 +1,43 @@
-.container {
-  font-family: Arial, Helvetica, sans-serif;
+link {
+  display: none;
 }
 
-link {
-    display: none;
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content:space-between;
+}
+
+header {
+  width: 100%;
+  order: 0;
+}
+
+.break {
+  width: 100%;
+  order: 1;
+}
+
+article {
+  width: 100%;
+  order: 2;
+}
+
+footer {
+  width: 100%;
+  order: 3;
 }
 
 .logo {
   float: left;
 }
 
-.main-logo {
-  width: 110px;
-  height: 110px;
-}
-
 .break {
   color: #7d97ad;
   width: 100%;
-  height: 3px;
+  height: 4px;
   background-color: #7d97ad;
 }
 
@@ -31,7 +50,7 @@ link {
   text-transform: uppercase;
 }
 
-.text {
+.main {
   text-align: justify;
   color: #02b3e4;
 }
@@ -45,7 +64,33 @@ link {
   color: #2d3c49;
 }
 
-.project-macos-install {
-  height: 500px;
-  width: 500px;
+.work-image {
+  width: 380px;
+  height: 380px;
+}
+
+/* Medium screens */
+@media only screen and (max-width: 600px) {
+  .title { font-size: 15px; }
+  .main-logo {
+    width: 80px;
+    height: 80px;
+  }
+  .work-image {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+/* Medium screens */
+@media only screen and (min-width: 600px) and (max-width: 770px) {
+  .title { font-size: 25px; }
+  .main-logo {
+    width: 100px;
+    height: 100px;
+  }
+  .work-image {
+    width: 180px;
+    height: 180px;
+  }
 }

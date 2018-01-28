@@ -38,7 +38,7 @@ footer {
   color: #7d97ad;
   width: 100%;
   height: 4px;
-  background-color: #7d97ad;
+  background: #7d97ad;
 }
 
 .title {
@@ -71,11 +71,15 @@ footer {
 
 /* Medium screens */
 @media only screen and (max-width: 600px) {
-  .title { font-size: 15px; }
+  .title {
+    font-size: 15px;
+  }
+
   .main-logo {
     width: 80px;
     height: 80px;
   }
+
   .work-image {
     width: 90px;
     height: 90px;
@@ -84,11 +88,15 @@ footer {
 
 /* Medium screens */
 @media only screen and (min-width: 600px) and (max-width: 770px) {
-  .title { font-size: 25px; }
+  .title {
+    font-size: 25px;
+  }
+
   .main-logo {
     width: 100px;
     height: 100px;
   }
+
   .work-image {
     width: 180px;
     height: 180px;
